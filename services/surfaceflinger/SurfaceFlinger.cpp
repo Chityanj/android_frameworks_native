@@ -5195,8 +5195,6 @@ status_t SurfaceFlinger::captureLayers(const sp<IBinder>& layerHandleBinder,
             }
         }
 
-        std::string getType() const override { return "LayerRenderArea"; }
-
     private:
         const sp<Layer> mLayer;
         const Rect mCrop;
